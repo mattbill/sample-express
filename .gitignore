@@ -1,0 +1,16 @@
+
+
+# PROJECT
+bower/
+node_modules/
+
+
+
+
+# IDE
+/.idea
+*.iml
+
+
+# Operating system
+.DS_Store

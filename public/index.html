@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link href="bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/styles.less" rel="stylesheet/less" type="text/css" />
+    <script src="bower/less/dist/less.min.js"></script>
+</head>
+<body>
+
+    <div ng-include="'modules/my-app/views/header.html'"></div>
+    <div class="container" ui-view></div>
+
+
+    <script src="bower/jquery/dist/jquery.min.js"></script>
+    <script src="bower/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower/angular/angular.min.js"></script>
+    <script src="bower/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower/angular-ui-sortable/sortable.min.js"></script>
+    <script src="bower/lodash/dist/lodash.js"></script>
+
+    <script src="modules/my-app/app.js"></script>
+    <script src="modules/my-app/controllers/examples-ctrl.js"></script>
+    <script src="modules/my-app/controllers/home-ctrl.js"></script>
+    <script src="modules/my-app/controllers/login-ctrl.js"></script>
+</body>
+</html>
