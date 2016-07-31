@@ -2,9 +2,7 @@
   "name": "sample-express",
   "description": "",
   "main": "index.js",
-  "authors": [
-    "mattbill <mattbillarddesign@gmail.com>"
-  ],
+  "authors": [],
   "license": "ISC",
   "homepage": "https://github.com/mattbill/sample-express",
   "ignore": [
